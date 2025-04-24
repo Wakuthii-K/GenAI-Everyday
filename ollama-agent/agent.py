@@ -89,7 +89,7 @@ class OllamaAgent:
                  model: str = "llama3", 
                  ollama_url: str = "http://localhost:11434",
                  temperature: float = 0.7,
-                 max_tokens: int = 1000):
+                 max_tokens: int = 250):
         """
         Initialize the agent.
         
